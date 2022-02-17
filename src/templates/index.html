@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Team 61</title>
+    <link rel='icon' href='../images/logo.png' type='image/png' />
+    <link rel="icon" type="image/png" href="../../images/favicon.png">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class='container-fluid' style='background-color: black; color: white; text-align: center; height: 300px;'>
+        <div class='container' style='position: relative; top: 150px'>
+            <h1>Depression and harassment detection</h1>
+            <p>Enter the text in the form below and submit to check if the text represents depression or harassment</p>
+        </div>
+    </div>
+    <div class='container' style='position: relative; top: 100px'>
+        <form class="form-horizontal" action="/result" method='POST'>
+            <div class="form-group">
+                <label class="control-label col-sm-offset-2 col-sm-2" for="text-check">Text:</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" name='text-check' id="text-check" placeholder="Enter text">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
