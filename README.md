@@ -19,6 +19,6 @@ Recurrent Neural Networks (RNN) is a neural network that takes inputs from previ
 Traditional neural networks are unable to remember past tests and documents. This problem is solved by LSTM. In addition to the current input, it uses previous outputs to make better decisions. The LSTM unit is equipped with a cell, an input gate, an output gate and a gate. To order to make more rational choices, the cell remembers information over large intervals. Bidirectional LSTMs are traditional LSTM 
 extensions that train two in the input sequence instead of one LSTM.
 
-###Conclusion
+### Conclusion
 Thus we have implemented naïve Bayes classifier and artificial neural network and LSTM over our depression and harassment dataset. Compared to ANN, naïve Bayes are simple to implement. For large dataset like the one we used performance of naive Bayes tends to plateau after a certain point thus the highest accuracy obtained for naive Bayes is approximately 93%.In contrast, ANN because of its complex nature tend to  learn from huge datasets and its performance improves. Thus ANN provides us an accuracy of approximately 96%. Furthermore, simplicity of naïve Bayes prevents it from overfitting whereas ANN because of its complex architecture if trained  unnecessary for large time can lead to overfitting.
 Deep learning models like LSTM’s are best suited for text classification and they provide high accuracy of approximately 98% among all three model.
